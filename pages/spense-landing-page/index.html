@@ -23,11 +23,11 @@
   </head>
   <body>
     <!-- announcement section -->
-    <section class="bg-black p-4 w-full">
-      <div class="text-white text-center font-medium">
+    <section class="w-full p-4 bg-black">
+      <div class="font-medium text-center text-white">
         🎉 To celebrate Spense's launch, we will be waiving all fees for the
         entire month of April.
-        <a href="#" class="underline underline-offset-2 decoration-white"
+        <a href="#" class="underline-offset-2 decoration-white underline"
           >You will be receiving 100% of the earnings.</a
         >
         🎉
@@ -35,45 +35,45 @@
     </section>
 
     <!-- hero section -->
-    <section class="bg-zinc-100 p-4 md:p-6 lg:pb-12">
+    <section class="bg-zinc-100 md:p-6 lg:pb-12 p-4">
       <header
-        class="flex items-center justify-between pt-6 container max-w-7xl mx-auto lg:pb-4"
+        class="max-w-7xl lg:pb-4 container flex items-center justify-between pt-6 mx-auto"
       >
         <!-- logo -->
         <a
           href="#"
-          class="font-bold text-lg duration-300 hover:text-zinc-700 mr-16"
+          class="hover:text-zinc-700 mr-16 text-lg font-bold duration-300"
         >
           spense.
         </a>
 
         <!-- middle links -->
-        <div class="hidden sm:flex flex-row gap-4 items-center">
+        <div class="sm:flex flex-row items-center hidden gap-4">
           <a
             href="#"
-            class="font-medium hover:underline capitalize underline-offset-2"
+            class="hover:underline underline-offset-2 font-medium capitalize"
           >
             Business
           </a>
           <a
             href="#"
-            class="font-medium hover:underline capitalize underline-offset-2"
+            class="hover:underline underline-offset-2 font-medium capitalize"
           >
             pricing
           </a>
           <a
             href="#"
-            class="font-medium hover:underline capitalize underline-offset-2"
+            class="hover:underline underline-offset-2 font-medium capitalize"
           >
             features
           </a>
         </div>
 
         <!-- right section -->
-        <div class="hidden sm:flex flex-row gap-4 items-center">
+        <div class="sm:flex flex-row items-center hidden gap-4">
           <a
             href="#"
-            class="font-medium hover:underline capitalize underline-offset-2"
+            class="hover:underline underline-offset-2 font-medium capitalize"
           >
             login
           </a>
@@ -87,51 +87,51 @@
       </header>
 
       <main
-        class="flex flex-col pt-6 lg:flex-row lg:gap-24 md:items-center container max-w-7xl mx-auto"
+        class="lg:flex-row lg:gap-24 md:items-center max-w-7xl container flex flex-col pt-6 mx-auto"
       >
         <!-- hero image -->
         <img
           src="./Assets/Hero Image (Mobile).png"
           alt="image of monthly earnings"
-          class="object-cover sm:hidden"
+          class="sm:hidden object-cover"
         />
         <img
           src="./Assets/Hero Image (Tablet).png"
           alt="image of monthly earnings"
-          class="object-cover hidden sm:block lg:hidden"
+          class="sm:block lg:hidden hidden object-cover"
         />
         <div class="lg:max-w-sm lg:order-2">
           <img
             src="./Assets/Hero Image (Desktop).png"
             alt="image of monthly earnings"
-            class="object-cover lg:block hidden"
+            class="lg:block hidden object-cover"
           />
         </div>
 
         <!-- hero text -->
-        <div class="flex flex-col pt-6 sm:pt-8 lg:w-2/3 lg:order-1">
+        <div class="sm:pt-8 lg:w-2/3 lg:order-1 flex flex-col pt-6">
           <h1
-            class="text-2xl sm:text-4xl lg:text-6xl lg:max-w-full md:text-5xl sm:max-w-md font-bold"
+            class="sm:text-4xl lg:text-6xl lg:max-w-full md:text-5xl sm:max-w-md text-2xl font-bold"
           >
             Share your unfiltered thoughts. Get paid.
           </h1>
-          <p class="text-stone-600 pt-3 sm:pt-4 lg:text-lg">
+          <p class="text-stone-600 sm:pt-4 lg:text-lg pt-3">
             Spense is an open platform for individuals to share their unfiltered
             thoughts. Discuss the topics you love, and get paid for doing
             <span class="italic">just</span> that.
           </p>
           <div
-            class="flex flex-col pt-3 sm:pt-4 gap-2 text-stone-600 font-medium"
+            class="sm:pt-4 text-stone-600 flex flex-col gap-2 pt-3 font-medium"
           >
-            <div class="flex flex-row gap-3 items-center">
+            <div class="flex flex-row items-center gap-3">
               <img src="./Assets/Checkmark.svg" alt="" />
               Receive 99% of the earnings.
             </div>
-            <div class="flex flex-row gap-3 items-center">
+            <div class="flex flex-row items-center gap-3">
               <img src="./Assets/Checkmark.svg" alt="" />
               Get paid via Debit Card, ACH, or PayPal
             </div>
-            <div class="flex flex-row gap-3 items-center">
+            <div class="flex flex-row items-center gap-3">
               <img src="./Assets/Checkmark.svg" alt="" />
               Withdraw your earnings anytime.
             </div>
@@ -153,12 +153,12 @@
       </main>
     </section>
 
-    <section class="bg-white p-4 md:p-6">
+    <section class="md:p-6 p-4 bg-white">
       <!-- section container -->
-      <div class="container max-w-7xl mx-auto">
+      <div class="max-w-7xl container mx-auto">
         <!-- companies container -->
-        <div
-          class="grid grid-cols-3 gap-4 max-w-full items-center my-8 mb-12 justify-center"
+        <section
+          class="grid items-center justify-center max-w-full grid-cols-3 gap-4 my-8 mb-12"
         >
           <div class="col-span-1">
             <img src="./Assets/Facebook Logo.png" alt="" class="" />
@@ -169,28 +169,48 @@
           <div class="col-span-1">
             <img src="./Assets/Youtube Logo.png" alt="" class="" />
           </div>
-        </div>
+        </section>
 
         <!-- gray card container -->
-        <div class="bg-zinc-100 rounded-md">
-          <div class="flex flex-col pt-8 px-8">
+        <section class="bg-zinc-100 rounded-xl">
+          <div class="flex flex-col px-8 pt-8">
             <h2 class="font-bold text-3xl max-w-[14rem]">
               Secure your money with Escrow.
             </h2>
-            <p class="pt-3 sm:pt-4 text-stone-600 text-lg">
+            <p class="sm:pt-4 text-stone-600 pt-3 text-lg">
               Spense uses Escrow to secure all payments. We believe Escrow
               offers the highest level of security for your payments, so you
               never need to worry about scams.
             </p>
             <a
               href="#"
-              class="text-stone-600 font-medium underline flex items-center gap-1 underline-offset-2 text-lg pt-3 duration-300 hover:text-stone-700"
+              class="text-stone-600 underline-offset-2 hover:text-stone-700 flex items-center gap-1 pt-3 text-lg font-medium underline duration-300"
             >
               Learn more about Escrow <i class="bi bi-arrow-right text-sm"></i>
             </a>
           </div>
           <img src="./Assets/Phone Mockup (Mobile).png" alt="" class="w-full" />
-        </div>
+        </section>
+
+        <!-- live demo section -->
+        <section class="flex flex-col py-6">
+          <h2 class="text-4xl font-bold">A text editor like no other.</h2>
+          <p class="sm:pt-4 text-stone-600 pt-3 text-lg">
+            Our text editor pulls you into focus mode with it's simplistic
+            design and usability so you can put out your best writings.
+          </p>
+          <a
+            href="#"
+            class="text-stone-600 underline-offset-2 hover:text-stone-700 flex items-center gap-2 pt-3 text-lg font-medium tracking-wide underline capitalize duration-300"
+          >
+            text editor live demo <i class="bi bi-arrow-right text-sm"></i>
+          </a>
+          <img
+            src="./Assets/Text Editor.png"
+            alt=""
+            class="w-full pt-8 scale-110"
+          />
+        </section>
       </div>
     </section>
   </body>
