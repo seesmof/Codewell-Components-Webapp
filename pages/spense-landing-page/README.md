@@ -13,7 +13,7 @@
 
 ## About
 
-This is a solution to one of the Codewell challenges, which contains a nice landing page. Enjoy
+This is a solution to one of the Codewell challenges, which contains a nice landing page. Made with HTML and TailwindCSS
 
 ## Screenshots
 
