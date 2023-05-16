@@ -1,3 +1,3 @@
 {
-  "conventionalCommits.scopes": ["snipper-landing-page"]
+  "conventionalCommits.scopes": ["snipper-landing-page", "main-page"]
 }
