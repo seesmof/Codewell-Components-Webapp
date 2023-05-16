@@ -31,7 +31,7 @@ This is a solution to one of the Codewell challenges, which contains a nice land
 
 ## Links
 
-- [Live Preview](https://seesmof.github.io/snipper-landing-page/)
+- [Live Preview](https://seesmof.github.io/codewell-solutions/pages/spense-landing-page/index.html)
 
 ## License
 
