@@ -35,8 +35,10 @@
     </div>
 
     <!-- hero section -->
-    <div class="bg-zinc-100 p-4 w-full">
-      <header class="flex items-center justify-between pt-6">
+    <div class="bg-zinc-100 p-4 md:p-6 w-full lg:pb-12">
+      <header
+        class="flex items-center justify-between pt-6 container max-w-7xl mx-auto lg:pb-4"
+      >
         <!-- logo -->
         <a
           href="#"
@@ -84,7 +86,9 @@
         </a>
       </header>
 
-      <div class="flex flex-col pt-6">
+      <div
+        class="flex flex-col pt-6 lg:flex-row lg:gap-24 lg:items-center container max-w-7xl mx-auto"
+      >
         <!-- hero image -->
         <img
           src="./Assets/Hero Image (Mobile).png"
@@ -94,16 +98,18 @@
         <img
           src="./Assets/Hero Image (Tablet).png"
           alt="image of monthly earnings"
-          class="object-cover hidden sm:block md:hidden"
+          class="object-cover hidden sm:block lg:hidden"
         />
-        <img
-          src="./Assets/Hero Image (Desktop).png"
-          alt="image of monthly earnings"
-          class="object-cover md:block hidden"
-        />
+        <div class="lg:max-w-sm lg:order-2">
+          <img
+            src="./Assets/Hero Image (Desktop).png"
+            alt="image of monthly earnings"
+            class="object-cover lg:block hidden"
+          />
+        </div>
 
         <!-- hero text -->
-        <div class="flex flex-col pt-6 sm:pt-8">
+        <div class="flex flex-col pt-6 sm:pt-8 lg:w-2/3 lg:order-1">
           <h1 class="text-2xl sm:text-4xl sm:max-w-md font-bold">
             Share your unfiltered thoughts. Get paid.
           </h1>
@@ -128,17 +134,19 @@
               Withdraw your earnings anytime.
             </div>
           </div>
-        </div>
 
-        <!-- form container -->
-        <div class="flex flex-row gap-3 pt-5">
-          <input
-            type="email"
-            class="rounded px-4 py-2 focus:outline-0 focus:outline-none focus:ring-gray-600 focus:ring-1 border-gray-400 focus:border-gray-600"
-            name="email"
-            placeholder="john@example.com"
-          />
-          <a href="#" class="black-start-button">Get Started</a>
+          <!-- form container -->
+          <div class="flex flex-row gap-3 pt-5">
+            <input
+              type="email"
+              class="rounded px-4 py-2 sm:py-3 focus:outline-0 focus:outline-none focus:ring-gray-600 focus:ring-1 border-gray-400 focus:border-gray-600 max-w-[11rem]"
+              name="email"
+              placeholder="john@example.com"
+            />
+            <a href="#" class="black-start-button sm:py-3 sm:px-5"
+              >Get Started</a
+            >
+          </div>
         </div>
       </div>
     </div>
