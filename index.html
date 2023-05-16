@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <style type="text/tailwindcss">
+      @layer components {
+        .card-heading {
+          @apply sm:text-2xl font-semibold capitalize text-lg;
+        }
+        .card-link {
+          @apply hover:underline underline-offset-4 text-neutral-300 tracking-wide capitalize text-sm sm:text-base;
+        }
+        .card-info {
+          @apply flex flex-col w-full sm:p-4 p-2;
+        }
+        .card-image {
+          @apply group-hover:scale-105 h-80 object-cover object-center w-full duration-1000;
+        }
+        .card-overlay {
+          @apply bg-neutral-900 absolute top-0 bottom-0 left-0 right-0 flex items-end justify-center bg-opacity-50;
+        }
+        .card-container {
+          @apply bg-neutral-600 col-span-1 row-span-1 overflow-hidden rounded-md md:rounded-xl;
+        }
+      }
+    </style>
+    <title>Projects Gallery</title>
+  </head>
+  <body>
+    <div class="bg-neutral-800 text-neutral-50 min-h-screen">
+      <div class="max-w-4xl mx-auto">
+        <!-- header container -->
+        <header
+          class="sm:flex-col sm:p-4 sm:items-start flex items-center justify-between p-2 px-4 pt-1"
+        >
+          <a href="./index.html">
+            <h1 class="sm:block hidden text-2xl font-semibold">
+              Codewell Projects
+            </h1>
+            <h1 class="sm:hidden block text-xl font-semibold">Projects</h1>
+          </a>
+
+          <div class="sm:flex flex-row hidden gap-4 mt-1">
+            <a
+              href="https://github.com/seesmof"
+              class="hover:underline underline-offset-4 gap-1.5 flex items-center flex-row"
+              title="GitHub Page"
+            >
+              <i class="bi bi-github text-lg"></i> GitHub Page
+            </a>
+            <a
+              href="https://www.codewell.cc/challenges"
+              class="hover:underline underline-offset-4 gap-1.5 flex items-center flex-row"
+              title="Codewell Challenges Link"
+            >
+              <i class="bi bi-link-45deg text-lg"></i> Codewell Challenges
+            </a>
+          </div>
+          <div class="sm:hidden flex flex-row gap-2 mt-1">
+            <a
+              href="#"
+              class="hover:scale-105 duration-300"
+              title="GitHub Page"
+            >
+              <i class="bi bi-github text-lg"></i>
+            </a>
+            <a
+              href="#"
+              class="hover:scale-105 duration-300"
+              title="Frontend Mentor Link"
+            >
+              <i class="bi bi-link-45deg text-lg"></i>
+            </a>
+          </div>
+        </header>
+        <div class="h-[1px] bg-neutral-600 md:hidden"></div>
+
+        <!-- grid container -->
+        <main
+          class="md:grid-cols-2 lg:gap-4 sm:px-4 grid grid-cols-1 gap-2 p-2"
+        >
+          <!-- box container -->
+          <article class="card-container">
+            <div class="group relative">
+              <a href="./pages/product-preview-card-component/index.html">
+                <!-- background image -->
+                <img
+                  src="./pages/product-preview-card-component/images/msedge_HCD8xBh5mu.png"
+                  alt="project screenshot"
+                  class="card-image"
+                />
+                <!-- dark overlay -->
+                <div class="card-overlay">
+                  <!-- page info -->
+                  <div class="card-info">
+                    <h2 class="card-heading">product preview card</h2>
+                    <p class="card-link">live preview</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- box container -->
+          <article class="card-container">
+            <div class="group relative">
+              <a href="./pages/qr-code-component/index.html">
+                <!-- background image -->
+                <img
+                  src="./pages/qr-code-component/images/msedge_JORpa5qtrV.png"
+                  alt="project screenshot"
+                  class="card-image"
+                />
+                <!-- dark overlay -->
+                <div class="card-overlay">
+                  <!-- page info -->
+                  <div class="card-info">
+                    <h2 class="card-heading">qR code component</h2>
+                    <p class="card-link">live preview</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- box container -->
+          <article class="card-container">
+            <div class="group relative">
+              <a href="./pages/chat-app-css-illustration/index.html">
+                <!-- background image -->
+                <img
+                  src="./pages/chat-app-css-illustration/images/msedge_OuT2AO87zg.png"
+                  alt="project screenshot"
+                  class="card-image"
+                />
+                <!-- dark overlay -->
+                <div class="card-overlay">
+                  <!-- page info -->
+                  <div class="card-info">
+                    <h2 class="card-heading">chat app cSS illustration</h2>
+                    <p class="card-link">live preview</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- box container -->
+          <article class="card-container">
+            <div class="group relative">
+              <a href="./pages/testimonials-grid-section/index.html">
+                <!-- background image -->
+                <img
+                  src="./pages/testimonials-grid-section/images/msedge_kKivuuW3o2.png"
+                  alt="project screenshot"
+                  class="card-image"
+                />
+                <!-- dark overlay -->
+                <div class="card-overlay">
+                  <!-- page info -->
+                  <div class="card-info">
+                    <h2 class="card-heading">testimonials grid section</h2>
+                    <p class="card-link">live preview</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- box container -->
+          <article class="card-container">
+            <div class="group relative">
+              <a href="./pages/fylo-data-storage-component/index.html">
+                <!-- background image -->
+                <img
+                  src="./pages/fylo-data-storage-component/img/msedge_n9fXQTLZn6.png"
+                  alt="project screenshot"
+                  class="card-image"
+                />
+                <!-- dark overlay -->
+                <div class="card-overlay">
+                  <!-- page info -->
+                  <div class="card-info">
+                    <h2 class="card-heading">fylo data storage component</h2>
+                    <p class="card-link">live preview</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- box container -->
+          <article class="card-container">
+            <div class="group relative">
+              <a href="./pages/clipboard-landing-page/index.html">
+                <!-- background image -->
+                <img
+                  src="./pages/clipboard-landing-page/img/desktop.png"
+                  alt="project screenshot"
+                  class="card-image group-hover:object-bottom object-top"
+                />
+                <!-- dark overlay -->
+                <div class="card-overlay">
+                  <!-- page info -->
+                  <div class="card-info">
+                    <h2 class="card-heading">Clipboard Landing Page</h2>
+                    <p class="card-link">live preview</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
