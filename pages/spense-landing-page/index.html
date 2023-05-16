@@ -13,6 +13,9 @@
     <link rel="shortcut icon" href="/img/logo-small.webp" type="image/x-icon" />
     <style type="text/tailwindcss">
       @layer components {
+        .black-start-button {
+          @apply bg-black text-white font-medium rounded px-4 py-2 hover:bg-neutral-800 duration-300;
+        }
       }
     </style>
 
@@ -72,9 +75,7 @@
           >
             login
           </a>
-          <a href="#" class="bg-black text-white font-medium rounded px-4 py-2"
-            >Get Started</a
-          >
+          <a href="#" class="black-start-button">Get Started</a>
         </div>
 
         <!-- hamburger menu -->
@@ -102,16 +103,18 @@
         />
 
         <!-- hero text -->
-        <div class="flex flex-col pt-6">
-          <h1 class="text-2xl font-bold">
+        <div class="flex flex-col pt-6 sm:pt-8">
+          <h1 class="text-2xl sm:text-4xl sm:max-w-md font-bold">
             Share your unfiltered thoughts. Get paid.
           </h1>
-          <p class="text-stone-600 pt-3">
+          <p class="text-stone-600 pt-3 sm:pt-4">
             Spense is an open platform for individuals to share their unfiltered
             thoughts. Discuss the topics you love, and get paid for doing
             <span class="italic">just</span> that.
           </p>
-          <div class="flex flex-col pt-3 gap-2 text-stone-600 font-medium">
+          <div
+            class="flex flex-col pt-3 sm:pt-4 gap-2 text-stone-600 font-medium"
+          >
             <div class="flex flex-row gap-3 items-center">
               <img src="./Assets/Checkmark.svg" alt="" />
               Receive 99% of the earnings.
@@ -135,9 +138,7 @@
             name="email"
             placeholder="john@example.com"
           />
-          <a href="#" class="bg-black text-white font-medium rounded px-4 py-2"
-            >Get Started</a
-          >
+          <a href="#" class="black-start-button">Get Started</a>
         </div>
       </div>
     </div>
