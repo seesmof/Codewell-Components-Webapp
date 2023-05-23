@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/seesmof/university">
-    <img src="./img/logo.png" alt="Logo" height="80">
+    <img src="/logo.png" alt="Logo" height="80">
   </a>
 
 <h1 align="center">Codewell Solutions Archive</h1>
