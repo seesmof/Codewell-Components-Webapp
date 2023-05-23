@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/seesmof/university">
-    <img src="/logo.png" alt="Logo" height="80">
+  <a href="https://github.com/seesmof/codewell-solutions">
+    <img src="/dist/logo-small.webp" alt="Logo" height="80">
   </a>
 
 <h1 align="center">Codewell Solutions Archive</h1>
