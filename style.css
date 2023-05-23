@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-heading {
+    @apply sm:text-2xl text-lg font-semibold capitalize;
+  }
+  .card-link {
+    @apply hover:underline underline-offset-4 text-neutral-300 sm:text-base text-sm tracking-wide capitalize;
+  }
+  .card-info {
+    @apply sm:p-4 flex flex-col w-full p-2;
+  }
+  .card-image {
+    @apply group-hover:object-bottom group-hover:scale-105 h-80 object-cover object-top w-full duration-1000;
+  }
+  .card-overlay {
+    @apply bg-neutral-900 absolute top-0 bottom-0 left-0 right-0 flex items-end justify-center bg-opacity-50;
+  }
+  .card-container {
+    @apply bg-neutral-600 md:rounded-xl col-span-1 row-span-1 overflow-hidden rounded-md;
+  }
+}
