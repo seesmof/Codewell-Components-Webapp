@@ -2,11 +2,12 @@ import { BsMoon, BsSun } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 
 export interface NavbarProps {
+  projectName: string;
   isDarkMode: boolean;
   setIsDarkMode: any;
 }
 
-const Navbar = ({ isDarkMode, setIsDarkMode }: NavbarProps) => {
+const Navbar = ({ projectName, isDarkMode, setIsDarkMode }: NavbarProps) => {
   return (
     <>
       <div
@@ -14,7 +15,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }: NavbarProps) => {
           isDarkMode ? "bg-slate-800" : "bg-inherit shadow-xl shadow-slate-300"
         }`}
       >
-        <h2 className="font-bold sm:text-xl">Frontend Mentor</h2>
+        <h2 className="font-bold sm:text-xl">{projectName}</h2>
         <div className="flex flex-row items-center gap-2">
           <button
             onClick={() => setIsDarkMode(!isDarkMode)}

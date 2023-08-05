@@ -20,7 +20,8 @@ const Card = ({ link, name, isDarkMode }: CardProps) => {
         }`}
       >
         <img
-          src={`/img/${link}.png`}
+          // src={`/img/${link}.png`}
+          src={`${link}/Design/Landing Page - Desktop View.png`}
           className="h-60 w-full object-cover object-top duration-[1500ms] group-hover:object-bottom"
           alt=""
         />

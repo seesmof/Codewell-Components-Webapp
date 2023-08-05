@@ -5,9 +5,10 @@ import Navbar from "./Navbar";
 
 interface GalleryProps {
   Projects: any[];
+  projectName: string;
 }
 
-const Gallery = ({ Projects }: GalleryProps) => {
+const Gallery = ({ Projects, projectName }: GalleryProps) => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   return (
@@ -20,7 +21,11 @@ const Gallery = ({ Projects }: GalleryProps) => {
         }`}
       >
         <div className="flex flex-col mx-auto max-w-4xl">
-          <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+          <Navbar
+            projectName={projectName}
+            isDarkMode={isDarkMode}
+            setIsDarkMode={setIsDarkMode}
+          />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 pt-4">
             {Projects.map((project) => (
               <Card

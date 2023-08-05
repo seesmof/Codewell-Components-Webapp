@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <>
-      <Gallery Projects={Projects} />
+      <Gallery Projects={Projects} projectName="Codewell" />
     </>
   );
 }
