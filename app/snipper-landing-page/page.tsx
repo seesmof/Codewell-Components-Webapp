@@ -6,20 +6,15 @@ const MainPage = () => {
       <section className="bg-center bg-no-repeat bg-cover bg-[url('/snipper-landing-page/Background.png')]">
         <div className="lg:max-w-5xl container px-6 mx-auto">
           <header className="flex items-center justify-between pt-6">
-            <a href="#" className="">
-              <img
-                src="/snipper-landing-page/Logo.svg"
-                alt="logo image"
-                className=""
-              />
+            <a href="#">
+              <img src="/snipper-landing-page/Logo.svg" alt="logo image" />
             </a>
-            <nav className="">
+            <nav>
               <div className="sm:flex md:gap-6 items-center hidden gap-4">
-                <a href="#" className="">
+                <a href="#">
                   <img
                     src="/snipper-landing-page/Search Icon.svg"
                     alt="search icon"
-                    className=""
                   />
                 </a>
                 <a
@@ -37,11 +32,7 @@ const MainPage = () => {
                 </a>
               </div>
               <a href="#" className="text-neutral-900 sm:hidden text-3xl">
-                <img
-                  src="/snipper-landing-page/Hamburger Menu.svg"
-                  alt=""
-                  className=""
-                />
+                <img src="/snipper-landing-page/Hamburger Menu.svg" alt="" />
               </a>
             </nav>
           </header>
@@ -71,7 +62,7 @@ const MainPage = () => {
           />
         </div>
       </section>
-      <section className="">
+      <section>
         <div className="lg:max-w-5xl container px-6 mx-auto">
           <main className="md:flex-row md:items-center xl:pt-16 flex flex-col justify-center gap-6 py-8">
             <div className="md:order-2 md:w-2/5 self-center">
@@ -100,8 +91,8 @@ const MainPage = () => {
             </div>
           </main>
           <footer className="sm:flex-row sm:justify-between sm:items-center md:pb-8 xl:pt-8 md:pt-0 flex flex-col justify-center pb-4">
-            <a href="#" className="">
-              <img src="/snipper-landing-page/Logo.svg" alt="" className="" />
+            <a href="#">
+              <img src="/snipper-landing-page/Logo.svg" alt="" />
             </a>
             <div className="flex flex-row gap-4 pt-2">
               <a href="#" className="text-neutral-800 font-medium">
