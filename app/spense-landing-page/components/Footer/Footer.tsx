@@ -22,8 +22,8 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="flex flex-col bg-black text-white/60 py-12 px-4 lg:px-6">
-        <div className="flex flex-col gap-2">
+      <div className="flex flex-col lg:flex-row lg:justify-between mx-auto max-w-6xl">
+        <div className="flex flex-col gap-2 max-w-md">
           <strong className="font-medium text-white">spense.</strong>
           <p>
             Spense is an open platform for individuals to share their unfiltered
@@ -33,12 +33,12 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 grid-rows-2 py-8 gap-6">
+        <div className="grid grid-cols-2 grid-rows-2 lg:grid-cols-1 lg:grid-rows-1 lg:grid-flow-col py-8 gap-6">
           {footerSections.map((section) => (
             <FooterSection key={section.heading} {...section} />
           ))}
         </div>
-      </footer>
+      </div>
     </>
   );
 };
